@@ -3,7 +3,7 @@
   "description": "a create, update and list commands for users",
   "keywords": ["user", "create", "command", "console"],
   "homepage": "https://github.com/davewwww",
-  "type": "library",
+  "type": "symfony-bundle",
   "license": "MIT",
   "authors": [
     {
