@@ -226,20 +226,9 @@ class DwoUserUpdateCommand extends Command
     private function getCommandHelp(): string
     {
         return <<<'HELP'
-The <info>%command.name%</info> command creates new users and saves them in the database:
+The <info>%command.name%</info> command update a user
 
-  <info>php %command.full_name%</info> <comment>username password</comment>
-
-By default the command creates regular users. To create administrator users,
-add the <comment>--admin</comment> option:
-
-  <info>php %command.full_name%</info> username password <comment>--admin</comment>
-
-If you omit any of the required arguments, the command will ask you to
-provide the missing values:
-
-  # command will ask you for the password
-  <info>php %command.full_name%</info> <comment>username</comment>
+  <info>php %command.full_name% ID</info>
 
 HELP;
     }
