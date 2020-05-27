@@ -1,0 +1,12 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    Dwo\UserCommandsBundle\:
+        resource: '../../*'
+        exclude: '../../{Command,DependencyInjection,Resources,Tests}'
+
+    Dwo\UserCommandsBundle\Command\:
+        resource: '../../Command/*'
+        tags: ['console.command']
