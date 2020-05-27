@@ -16,10 +16,12 @@
     "php": ">=7.3",
     "ext-json": "*",
     "symfony/console": "^4.4|^5.0",
-    "symfony/security": "^4.4|^5.0",
     "symfony/validator": "^4.4|^5.0",
     "symfony/property-access": "^4.4|^5.0",
-    "doctrine/orm": "*"
+    "doctrine/orm": "^2.6"
+  },
+  "suggest": {
+    "symfony/security": "For using password encoder"
   },
   "autoload": {
     "psr-4": { "Dwo\\UserCommandsBundle\\": "src/" }
